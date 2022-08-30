@@ -12,7 +12,7 @@ export GOARCH=amd64
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
 DOCKERFILE_DIR=${BASE_DIR}
 DOCKER_IMG_PREFIX="q641287441a"
-VERSION="1.0.1"
+VERSION="1.1.0"
 
 # 当前需要编译的服务
 SERVERS=(airflow-jdk8)
